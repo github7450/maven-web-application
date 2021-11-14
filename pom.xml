@@ -97,12 +97,12 @@
     		<repository>
         		<id>central</id>
        			<name>nexus01-releases</name>
-        		<url>http://nexus01:8081/artifactory/jfroglocal</url>
+        		<url>http://nexus01:8082/artifactory/jfroglocal</url>
     		</repository>
     		<snapshotRepository>
         		<id>snapshots</id>
         		<name>nexus01-snapshots</name>
-        		<url>http://nexus01:8081/artifactory/jfroglocal</url>
+        		<url>http://nexus01:8082/artifactory/jfroglocal</url>
     		</snapshotRepository>
 	</distributionManagement>
 	
