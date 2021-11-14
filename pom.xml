@@ -96,15 +96,15 @@
 	<distributionManagement>
 	
 	    <repository>
-	      <id>nexus</id>
-	      <name>test-app-releases</name>
-	      <url>http://nexus01:8081/repository/test-app-releases/</url>
+	      <id>jfrog</id>
+	      <name>jfrogrepo</name>
+	      <url>https://repo1.maven.org/maven2//</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
-	      <name>test-app-snapshot</name>
-	      <url>http://nexus01:8081/repository/test-app-snapshot/</url>
+	      <id>jfrog</id>
+	      <name>jfrogrepo</name>
+	      <url>https://repo1.maven.org/maven2//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
