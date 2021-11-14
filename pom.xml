@@ -97,14 +97,14 @@
 	
 	    <repository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://nexus01:8081/repository/maven-releases/</url>
+	      <name>test-app-releases</name>
+	      <url>http://nexus01:8081/repository/test-app-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://nexus01:8081/repository/maven-snapshots/</url>
+	      <name>test-app-snapshot</name>
+	      <url>http://nexus01:8081/repository/test-app-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
