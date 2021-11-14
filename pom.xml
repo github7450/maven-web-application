@@ -94,19 +94,16 @@
 	</dependencies>
 	
 	<distributionManagement>
-	
-	    <repository>
-	      <id>jfrog</id>
-	      <name>jfrogrepo</name>
-	      <url>https://repo1.maven.org/maven2//</url>
-	    </repository>
-	    
-	    <snapshotRepository>
-	      <id>jfrog</id>
-	      <name>jfrogrepo</name>
-	      <url>https://repo1.maven.org/maven2//</url>
-	    </snapshotRepository>
-	    
+    		<repository>
+        		<id>central</id>
+       			<name>nexus01-releases</name>
+        		<url>http://nexus01:8081/artifactory/jfroglocal</url>
+    		</repository>
+    		<snapshotRepository>
+        		<id>snapshots</id>
+        		<name>nexus01-snapshots</name>
+        		<url>http://nexus01:8081/artifactory/jfroglocal</url>
+    		</snapshotRepository>
 	</distributionManagement>
 	
 	<build>
